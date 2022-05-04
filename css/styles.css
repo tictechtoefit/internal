@@ -9,7 +9,7 @@ Author URL: http://webthemez.com
 body {
   padding-top: 100px;
   background: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #282828;
   line-height: 26px;
@@ -21,9 +21,17 @@ h3,
 h4,
 h5,
 h6 {
+
   font-weight: 600;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #321414;
+  margin-bottom: 4px;
+}
+
+.card-name{
+  margin: 0px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 a {
   color: #45aed6;
@@ -575,7 +583,7 @@ padding:0px;
 -webkit-transition: all .2s ease-in-out;
 -o-transition: all .2s ease-in-out;
 transition: all .2s ease-in-out;
-margin-bottom: 15px;
+margin-bottom: 1px;
 }
 #testimonial {
   background: #222222;
